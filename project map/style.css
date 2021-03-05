@@ -1,0 +1,55 @@
+
+html,
+body {
+  height: 50%;
+  margin: 10px;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+
+#map {
+  height: 75vh;
+  border: 2px solid white;
+  margin: 10px;padding-top: 0 10px 2px 10px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+  
+.navbar {
+  overflow: hidden;
+  float: center;
+}
+
+.navbar a {
+  float: center;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px 20px 16px;
+  text-decoration: none;
+}
